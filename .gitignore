@@ -1,0 +1,74 @@
+# ============================================
+# .gitignore cho Clinic System (PHP Project)
+# ============================================
+
+# --- Cấu hình nhạy cảm ---
+/config/database.php
+/config/auth.php
+/config/mail_config.php
+*.env
+.env
+.env.*
+
+# --- Uploads người dùng ---
+/uploads/
+/assets/uploads/
+
+# --- Thư mục cache & tạm ---
+/cache/
+/tmp/
+/temp/
+*.tmp
+*.cache
+
+# --- Log files ---
+*.log
+/logs/
+error_log
+php_errorlog
+
+# --- Dependencies (nếu dùng Composer) ---
+/vendor/
+composer.lock
+
+# --- Node modules (nếu có frontend build) ---
+node_modules/
+npm-debug.log*
+yarn-error.log*
+package-lock.json
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.suo
+*.user
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# --- OS files ---
+desktop.ini
+ehthumbs.db
+
+# --- File backup ---
+*.bak
+*.backup
+*~
+*.swp
+*.swo
+
+# --- File nén ---
+*.zip
+*.rar
+*.tar.gz
+*.7z
+
+# --- Database export ---
+*.sql
+*.sqlite
+*.db
+
+# --- QR / generated images tạm ---
+/assets/qr/
+/qr_codes/
